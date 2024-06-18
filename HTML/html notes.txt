@@ -1,0 +1,53 @@
+tags in html are used for doing various functions
+like html head title body
+DIV a tag used to put content in the body
+doctype declaration is just a declaration for using the latets version
+the HEAD tag doesnot contain any info displayed on teh site
+the meta for metadata
+the link tag for style sheets 
+the script tag for scripts and code
+div tag is used for grouping and devision of the page into logical sections vertically
+first create a digital wireframe  
+heading tags they are from h1 to h6 where h1 being the highest 
+there are two tags used in adding test 'p' and 'span'
+ P is usually used for adding large para
+ SPAN is used on in line styling and for adding specific features to specific part of the
+ text
+B for bold
+I for ilatalics
+U for underline
+strong for  showing importance 
+em for emphasis on text       
+there are two types of LIST ordered and unordered list using ol and ul in the program 
+using li for adding input to the list.
+a tag is used to create link and should have a href attribute that specifies the url and we can also use target attribute to tell if the link should open in new tab or window
+img tag is the tag for adding IMAGE and src the attribute to get the file path for the img 
+  alt attribute of the img tag is used for proving alternate text for of the img if itd not       loaded.the img tag is a self closing tag it doesnt require a closing tag
+Table is used by table tag and having a tr attribute defining each row and a td element defining each data cell th tag is used for adding a heading
+style tag can also be used to make up with the 
+Use the <form> tag to start a form and the </form> tag to end it.
+
+Use the <input>, <select> and <textarea> tag to create form fields for the user to input data. There are various types of input fields, such as text, password, email, radio buttons, checkboxes, dropdowns and more.
+
+Use the <label for="The imput property"> tag to create a label for each input field to provide more context and improve accessibility.
+
+Add a button at the end to trigger form submission and set the action and method attributes to configure where the results are sent (more on this later).
+SYNTAX
+  <form>
+  <label for="input property">Property to be taken</label>
+  <input type="input required" id="unique indentification" name ="Inpyut" 
+The input fields have various attributes, such as "type" to specify the type of input, "id" for unique identification, "name" for server-side processing, and "required" to indicate that the field is mandatory.placeholders are the empty value that goes away when we fill the box
+meta tags are used to give the preview of the page 
+meta charset: This tag specifies the character encoding used in the document, which affects how text is displayed. The recommended value is UTF-8.
+meta name="viewport": This tag specifies the viewport properties for responsive design. It includes attributes such as width, initial-scale, and minimum-scale.
+meta name="description": This tag provides a brief summary of the page content and is used by search engines when displaying search results.
+meta name="keywords": This tag specifies keywords related to the page content and was used in the past by search engines for indexing, but is now less important.
+meta name="author": This tag specifies the author of the page.
+meta name="robots": This tag specifies instructions for web crawlers, such as  whether to index or follow links on the page.
+here are also platform-specific tags for social media sites such as Facebook and Twitter. These tags are used to provide more information about the page when it is shared on these platforms. Here are some examples:
+meta property="og:title": This tag specifies the title of the page when it is shared on Facebook and several other sites.
+meta property="og:description": This tag specifies the description of the page when it is shared on Facebook and several other sites.
+meta property="og:image": This tag is used to specify the image that should be displayed when a page is shared on social media platforms, such as Facebook or Twitter.
+meta name="twitter:title": This tag specifies the title of the page when it is shared on Twitter.
+meta name="twitter:description": This tag specifies the description of the page when it is shared on Twitter.
+meta name="twitter:card": This is used to display the preview of the web page as a card on Twitter

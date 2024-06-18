@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>
+            Shipping Calculator
+        </title>
+    </head>
+    <p>
+        Amazon Shipping Calculator
+    </p>
+    <input class="cost" placeholder="cost of order" onkeydown="
+    console.log(event)">
+    <button onclick="
+    calc();
+    ">Calculate</button>
+    <script>
+        function calc(){
+     const db=document.querySelector('.cost');
+     const val=db.value
+     console.log(typeof val)
+     //here the number is string
+     num=Number(val)
+       if(num<40){
+        num=num+10
+       }   
+       document.querySelector('.cost').innerHTML=`$${cost}`
+
+    }
+    </script>
+</html>

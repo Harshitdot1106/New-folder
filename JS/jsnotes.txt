@@ -1,0 +1,18 @@
+// for an inline commnert /* */ for an multiline commnet 
+/* undefined ,null,boolean,string,symbol,number and object
+console.log() is equivalent of printf 
+two strings can be concatenatedn from + character
+.length function is used for getting the length of the string
+The string in js as;lo have indesxing same as python and the are immutable with indexing but arrays are mutable with indexing
+we can use the bracket notation to get any words position in the string
+.push() function is used to append an array at the end the of the given array
+.unshift function adds the elemnet to the start of the array
+.shift fucntion isd used to remove the first elemnet from the array
+.pop() can be used to remove an last  item form the array
+in an object we can use dote property to update the value in the on=bject,sometimes we bracket[] when we have spacen between the names of the indexes of the list
+there are various biult in objects like JSON,localstorage,math.random.console.log
+documnet.queryselector helps us put an thing on the page into the js code
+here in js the array copys by copy by referece not by value so if arr1=arr2 and we edit arr2 then the changes will be made to arr1 also
+for arrow fucntion jsut replace the function key wird with the arrow sign after the parameter entrered
+data attribute can be used to ascess data in html 
+to get a variable out of the the specific file withoutadding it as script we use the modeule tag and they help i avoiding the naming conflict

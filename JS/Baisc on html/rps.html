@@ -1,0 +1,148 @@
+<html>
+    <head>
+        <title>
+            Rock Paper scissors
+        </title>
+        <style>
+            body  {
+                background-color: black;
+            }
+            .y{
+    display: flex;
+    width:100%;
+    background-color: black;
+    
+    align-items: center;
+    
+}
+.rck{
+    margin-right: 50px;
+    background-color: black;
+  width: 33%;
+    color: black;
+    }
+.title{
+    text-align: center;
+    color: aliceblue;
+
+}
+.img{
+    
+    margin-right:50px ;
+color: black;
+    background-color: black;
+    border-radius: 20%;
+    border-width: 2px;
+    border-color: rgb(226, 24, 24);
+    border-left: 50px;
+    
+}
+button{
+    align-self: center;
+    background-color: black;
+    border-radius: 30px;
+    padding-left: 60px;
+    border-style: hidden;
+    padding-top: 20px;
+}
+.result{
+    color: aliceblue;
+}
+        </style>
+    </head>
+    <body>
+    <h1 class ="title">
+        Rock Paper Scissors
+</h1>
+<div class="y">
+<div class="rck">
+    <button onclick="
+    test('rock');
+    "><img class='img' src="https://supersimple.dev/projects/rock-paper-scissors/images/rock-emoji.png" alt="ROCk">
+    </button></div>
+
+    <div class="rck">
+        <button onclick="
+        test('paper');
+        "><img class ="img"src="https://supersimple.dev/projects/rock-paper-scissors/images/paper-emoji.png" alt="Paper">
+        </button></div>
+
+        <div class="rck">
+            <button onclick="
+            test('scissor');
+            "><img class ="img" src="https://supersimple.dev/projects/rock-paper-scissors/images/scissors-emoji.png" alt="Sciisors">
+            </button>
+</div>
+</div>
+<div class="result">
+make you move
+</div>
+      <script>
+       let  score={
+         wins:0,
+         losses:0,
+         ties:0
+        }
+        
+        
+        let cmpmove=''
+        function computerMove(){
+            const num=Math.random()
+            if(num>=0 && num<0.3334){
+                cmpmove='rock'
+            }
+            else if(num>=0.3334 && num<0.66667){
+                cmpmove='paper'
+            }
+             else{
+                cmpmove='scissor'
+             }
+        }
+        function test(move) {
+            computerMove();
+            let result = '';
+            if (move === cmpmove) {
+                result = 'It\'s a tie!';
+                score.ties += 1;
+            } else if (
+                (move === 'rock' && cmpmove === 'scissor') ||
+                (move === 'paper' && cmpmove === 'rock') ||
+                (move === 'scissor' && cmpmove === 'paper')
+            ) {
+                result = 'You win!';
+                score.wins += 1;
+            } else {
+                result = 'You lose!';
+                score.losses += 1;
+            }
+
+            document.querySelector('.result').innerHTML = `
+                <p>Wins: ${score.wins}, Losses: ${score.losses}, Ties: ${score.ties}</p>
+                <p>Your move: ${move}, Computer's move: ${cmpmove}</p>
+                <p>${result}</p>
+            `;
+        }
+    console.log(computerMove);
+      </script>
+       <button class ='rs'onclick="
+    score.wins=0
+       "><div class="ss"> Score reset </div>
+       </button>
+       <style>
+.rs{
+    margin-top: 30px;
+    size: 50px;
+    color: aliceblue;
+    border: 3px solid black
+    align-content: center;
+    padding: 2px 2px;
+    border-radius: 0px;
+}
+.ss{
+    padding 10px
+    width: 100%;
+    font-size:20px
+}
+       </style>
+ </bodY>     
+</html>

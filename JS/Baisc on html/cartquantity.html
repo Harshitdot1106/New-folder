@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Variable quantity
+        </title>
+    </head>
+    <body>
+        <h1>
+            Cart quantity
+        </h1>
+        <div id="buttons">
+        <button onclick="
+        console.log(` Cart quantity:${variable}`);
+        ">Show quantity</button>
+        <button onclick="
+        variable+=1;
+        console.log(` Cart quantity:${variable}`);
+        ">Add to cart</button>
+        <button onclick="
+        variable+=2;
+        console.log(` Cart quantity:${variable}`);
+        ">+2</button>
+        <button onclick="
+        variable+=3;
+        console.log(` Cart quantity:${variable}`);
+        ">+3</button>
+        <button onclick="
+        alert('The cart is emptied');
+        variable=0;
+        console.log(` Cart quantity:${variable}`);
+        ">reset cart</button>
+        </div>
+        <script>
+            let variable=0;
+
+        </script>
+    </body>
+
+</html>

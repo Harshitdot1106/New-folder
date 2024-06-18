@@ -1,0 +1,11 @@
+// for an inline commnert /* */ for an multiline commnet 
+/* undefined ,null,boolean,string,symbol,number and object
+console.log() is equivalent of printf 
+two strings can be concatenatedn from + character
+.length function is used for getting the length of the string
+The string in js as;lo have indesxing same as python and the are immutable with indexing
+we can use the bracket notation to get any words position in the string
+.push() function is used to append an array at the end the of the given array
+.unshift function adds the elemnet to the start of the array
+.shift fucntion isd used to remove the first elemnet from the array
+.pop() can be used to remove an last  item form the array

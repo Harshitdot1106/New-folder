@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Youtube Subscribe button 
+        </title>
+        <style>
+            .colorchange{
+
+            background-color: bisque;
+            color: aqua;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            Subscribe To MY youtube channel
+        </h1>
+      
+       <button onclick="
+       Subscribe()
+        " class="sbs">Subscribe</button>
+        <script>
+           function Subscribe(){
+            
+       const sbsbut= document.querySelector('.sbs');
+       if(sbsbut.innerHTML==='Subscribe'){
+        sbsbut.innerHTML='Subscribed'
+        sbsbut.classList.add('colorchange')
+       }
+       else{
+        sbsbut.innerHTML='Subscribe'
+        sbsbut.classList.remove('colorchange')
+           }
+        }
+        </script>
+    </body>
+</html>
+//the class lsit button helps in adding the butto

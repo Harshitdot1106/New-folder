@@ -1,0 +1,42 @@
+for style first we have the style= "css property : value;another property : value"
+there are different types of selctors like id class
+ID is represented by #id name 
+class is represented by .class nanme 
+Here are the main components of the CSS box model:
+Content: The actual content of the HTML element, such as text, images, or videos.
+  The size of the content can be controlled using the height and width properties.
+Padding: The space between the content and the border of the element.
+ Padding can be set for all sides or for each side individually.
+ The background color set for the content also applies to the padding area
+Border: The border that surrounds the content and padding.
+ Borders can be set for all sides or for each side individually
+ Borders can be styled with various properties such as color, width, and style.
+Margin: The space between the border of the element and the adjacent elements.
+  Margins can be set for all sides or for each side individually.
+ The background color set for the content does not apply to the margin area.
+ Margins for two elements can overlap, and collapses to the larger value and they        dont apply to span 
+ MArgin syntax   margin:top right bottom left ;
+so as to avoid the img to strech we can use object fit cover
+to show two divs side by side we use display:flex
+Here are some of the most commonly used text styling properties in CSS:
+
+font-family: This property sets the font family for the selected text. It specifies the name of one or more font families to use for the text. E.g. font-family: Arial, sans-serif;. CSS provides several in-built fonts: https://www.w3schools.com/cssref/css_websafe_fonts.php
+
+font-size: This property sets the font size for the selected text. It specifies the size of the font in pixels, ems, or other units. E.g. font-size: 36px;
+
+font-weight: This property sets the weight (boldness) of the selected text. It specifies the weight of the font as a number or a keyword. E.g. font-weight: bold;
+
+text-align: This property sets the horizontal alignment of the selected text. It specifies the alignment of the text as left, right, center, or justified. E.g. text-align: center;
+
+line-height: This property sets the height of each line of text. It specifies the height of the line as a number or a percentage of the font size. E.g. line-height: 1.5;
+
+font-style: This property sets the style of the font for the selected text. It specifies whether the font should be italic, oblique, or normal (default). E.g. font-style: italic;
+
+text-transform: This property sets the capitalization of the selected text. It specifies whether the text should be transformed to uppercase, lowercase, or capitalize (first letter of each word capitalized). E.g. text-transform: uppercase;
+
+text-decoration: This property sets the decoration of the selected text. It specifies whether the text should be underlined, overlined, line-through, or none (default). E.g. text-decoration: underline;
+color: sets the color of text
+background-color: sets the background color of an element
+border-color: sets the color of an element's border
+box-shadow: sets the color of an element's shadow
+text-shadow: sets the color of text shadow

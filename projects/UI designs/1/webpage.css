@@ -1,0 +1,228 @@
+html{
+    font-size: 16px;
+}
+body{
+   background: aliceblue; 
+   font-family: Inter;
+   font-weight: 400;
+   line-height: 24px;
+   color: #000;
+}
+h1{
+    font-family: League Spartan;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing:0em;
+    text-align: left;
+    width: 520px;
+height: 150px;
+top: 128px;
+left: 190px;
+gap: 0px;
+opacity: 0px;
+
+}
+h2{
+    width: 700px;
+text-align: center;
+margin: 0 auto;
+font-family: League Spartan;
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+text-align: center;
+}
+#h2body{
+    width: 686px;
+height: 81px;
+top: 810px;
+left: 370px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: center;
+
+
+    margin: 0 40px;
+    text-align: center;
+}
+#h1body{
+    text-align: left;
+    width: 520px;
+height: 128px;
+top: 308px;
+left: 190px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+
+}
+#button{
+    background-color: #000;
+    color: azure;
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    margin: 10px 10px;
+    text-align: center;
+}
+#fed{
+    width: 300px;
+height: 27px;
+top: 959px;
+left: 210px;
+gap: 0px;
+opacity: 0px;
+
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+text-align: center;
+
+}
+#bed{
+    width: 300px;
+height: 216px;
+top: 994px;
+left: 210px;
+gap: 0px;
+opacity: 0px;
+
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+color: #55206D;
+
+}
+#list{
+    display:flex;
+   list-style: none;
+}
+#a{
+    padding:5px 5px;
+    border: 2px solid white;
+    margin-right: 45px;
+    background-color: antiquewhite;
+    text-align: center;
+    
+}
+#b{
+    padding:5px 5px;
+    border: 2px solid white;
+    margin-right: 45px;
+    background-color: antiquewhite;
+    text-align: center;
+    
+}
+#c{
+    padding:5px 5px;
+    border: 2px solid white;
+    margin-right: 45px;
+    background-color: antiquewhite;
+    text-align: center;
+    
+}
+h3{
+font-family: League Spartan;
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+text-align: center;
+
+}
+#h3body{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: center;
+color: #190D37;
+
+}
+#ph{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    text-align: left;
+    width: 109px;
+height: 14px;
+top: 33px;
+left: 214px;
+gap: 0px;
+opacity: 0px;
+
+     
+}
+#mail{
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.06px;
+text-align: left;
+margin-left: 30px;
+width: 114px;
+height: 14px;
+top: 33px;
+left: 596px;
+gap: 0px;
+opacity: 0px;
+
+
+}
+#name{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.36px;
+text-align: left;
+margin-top: 20px;
+width: 135px;
+height: 19px;
+top: 99px;
+left: 190px;
+gap: 0px;
+opacity: 0px;
+
+}
+#phmail{
+    display :flex;
+}
+#hero{
+    display:flex;
+}
+#Hero{
+    width: 50%;
+    padding: 20px auto;
+}
+#img1{
+width: 1000px;
+height: 400px;
+padding: 0 auto;
+top: 0px;
+left: 730px;
+gap: 0px;
+opacity: 0px;
+margin-right: 0px;
+margin-top: 0px;
+display: block;
+}
+#and{
+    font-family: League Spartan;
+font-size: 48px;
+font-weight: 400;
+line-height: 50px;
+text-align: left;
+
+}

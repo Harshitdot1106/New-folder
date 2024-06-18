@@ -1,0 +1,20 @@
+<script>
+   let  product={
+name:"Shirt",
+'delivery-time':"1 day",
+rating:{
+    stars:4.5,
+    count :87
+
+},
+fun:function fucntion(){
+    console.log("function inside object")
+}
+    };
+   console.log(JSon.stringfy(product))
+   const js=JSon.stringfy(product);
+   console.log(JSON.parse(js))
+   //this is used for revering the json thing in to js
+</script>
+//the json method doesn not support function
+//this is mostly used to convert an object into a string ,especially in the places where the input is only take in the form of string

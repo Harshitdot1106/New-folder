@@ -1,0 +1,5 @@
+For JavaScript basics: "JavaScript for Beginners" course on Udemy, "Eloquent JavaScript" book by Marijn Haverbeke
+For Node.js: "The Complete Node.js Developer Course" on Udemy, "Node.js in Action" book by Mike Cantelon
+For Express.js: "Node.js, Express, MongoDB & More: The Complete Bootcamp 2021" course on Udemy, "Web Development with Node and Express" book by Ethan Brown
+For MongoDB: "The Complete MongoDB Bootcamp 2021: From Zero to Master" course on Udemy, "MongoDB: The Definitive Guide" book by Kristina Chodorow
+For React: "React - The Complete Guide (incl Hooks, React Router, Redux)" course on Udemy, "Learning React: A Hands-On Guide to Building Web Applications Using React and Redux" book by Kirupa Chinnathambi

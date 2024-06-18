@@ -1,0 +1,31 @@
+Here are the steps to open up a repository in Codespaces and launch it within VS Code:
+
+Navigate to the GitHub repository that you want to work on.
+
+Click on the "Code" button, and select "Open with Codespaces" from the dropdown menu.
+
+Select the Codespace configuration that you want to use, or create a new one if necessary.
+
+Wait for the Codespace to be created, which may take a few minutes, if done for the first time.
+
+Once the Codespace is ready, click on the "Open in Visual Studio Code" button
+nce you've made changes to your code, it's important to update your GitHub repository to keep your code up-to-date and available to others.
+
+Open the inbuilt command line terminal within the browser-based VS Code window.
+
+(Optional) Review the changes you have made using the git status and git diff commands.
+
+Stage the changes you made by typing git add <file-name> or git add . to stage all changes.
+
+Commit the changes you staged by typing git commit -m "commit message". Make sure your commit message is descriptive and explains what changes you made.
+
+(Optional) You can verify that the change was made successfully using the git log command.
+
+Push your changes to your GitHub repository by typing git push. This will update your repository with your latest changes.
+direct steps for comming the file in the repository
+$git status  -this gives us info about if there are any untraced file
+$git add folder name     -this will add the files in the folder to the staging area
+$git commit -m"add the html and css files "   thiswill add the message before commiting
+$ git push origin main  -this is the last step for comminting the files in the repository and here origin refers to the space where are other files are saved 
+$git log   -this will show the recent files 
+q will be useful for exiting the terminal if we are stuck
