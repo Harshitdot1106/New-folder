@@ -14,5 +14,10 @@ there are various biult in objects like JSON,localstorage,math.random.console.lo
 documnet.queryselector helps us put an thing on the page into the js code
 here in js the array copys by copy by referece not by value so if arr1=arr2 and we edit arr2 then the changes will be made to arr1 also
 for arrow fucntion jsut replace the function key wird with the arrow sign after the parameter entrered
-data attribute can be used to ascess data in html 
+data attribute can be used to ascess data in html ]'
+
 to get a variable out of the the specific file withoutadding it as script we use the modeule tag and they help i avoiding the naming conflict
+jasmine from jasmine documentation
+in class we use a equals to sign for defining a variable and a semi colon to end it
+
+asyn causes the code to return a promise 

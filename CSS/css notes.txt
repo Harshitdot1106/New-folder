@@ -40,3 +40,19 @@ background-color: sets the background color of an element
 border-color: sets the color of an element's border
 box-shadow: sets the color of an element's shadow
 text-shadow: sets the color of text shadow
+The CSS display property determines how an element is displayed on the web page. It controls the layout and rendering of the element in various ways. Here are some commonly used display options:
+display: block; - The element creates a block-level box, taking up the full width available and generating a new line before and after itself.
+display: inline; - The element creates an inline-level box that doesn't break the flow of text and only takes up as much width as necessary.
+display: inline-block; - The element creates a block-level box that can be placed inline with other elements and respects width and height properties.
+display: flex; - The element becomes a flex container, allowing its children to be laid out as flexible boxes.we can also vary the direction of flex like row,row-reverse
+display: none; - The element is removed from the rendering tree, making it invisible and not taking up any space in the layout.
+there are various funtions of flex:
+   The flex-direction property of a container sets the primary axis along which flex items are arranged within a flex container. It supports the following options:
+   row: Flex items are laid out horizontally, in the order they appear in the source code (default).
+    row-reverse: Flex items are laid out horizontally, in the reverse order of their appearance in the source code.
+    column: Flex items are laid out vertically, in the order they appear in the source code.
+    column-reverse: Flex items are laid out vertically, in the reverse order of their appearance in the source code.
+    The 'flex-wrap' property of a container controls whether flex items should wrap onto multiple lines or be forced onto a single line within a flex container.It supports the following options:
+    nowrap: Flex items are forced onto a single line, potentially causing overflow (default).
+    wrap: Flex items wrap onto multiple lines when the container width is not sufficient to accommodate them.
+    wrap-reverse: Flex items wrap onto multiple lines in the reverse order when the container width is not sufficient to accommodate them.

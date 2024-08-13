@@ -1,3 +1,5 @@
+mpre info on the 3rd chapter of freecodecamp video on webdev on html and css course
+
 Here are the steps to open up a repository in Codespaces and launch it within VS Code:
 
 Navigate to the GitHub repository that you want to work on.
@@ -26,6 +28,25 @@ direct steps for comming the file in the repository
 $git status  -this gives us info about if there are any untraced file
 $git add folder name     -this will add the files in the folder to the staging area
 $git commit -m"add the html and css files "   thiswill add the message before commiting
-$ git push origin main  -this is the last step for comminting the files in the repository and here origin refers to the space where are other files are saved 
+$ git push origin main  -this is the last step for comminting the files in the repository and here origin refers to the space where are other files are saved and main refers to the branch
 $git log   -this will show the recent files 
 q will be useful for exiting the terminal if we are stuck
+$git diff   - will show teh exact changes in each files
+to create a different branch-Here's how you can create branches within GitHub Codespaces:
+
+Click on the "Terminal" icon in the left-hand menu to open the integrated terminal.
+To create a new branch, type the following command in the terminal: git branch <branch-name>. Replace <branch-name> with the name of the new branch you want to create.
+To switch to the new branch, type the following command in the terminal: git checkout <branch-name>.
+You can now make changes to the codebase on the new branch, using the integrated editor in Codespaces.
+Once you have made your changes, commit them to Git using the following commands:
+git add .
+git commit -m "Your commit message"
+To push your changes to the remote repository, use the following command:
+git push -u origin <branch-name>.
+Now to make a pull request Pull requests are a way to propose changes to the codebase and get them reviewed by other developers. Here are the steps to create a new pull request in GitHub:
+Create a new branch as described in the previous section.
+Make your changes to the codebase on the new branch & push it to GitHub.
+Click on the "Pull requests" tab at the top of the repository page.
+Click on "New pull request" to create a new pull request.
+Select the base branch (the branch you want to merge into), and the compare branch (the branch containing your changes).
+Add a title and description for your pull request, and click on "Create pull request".
